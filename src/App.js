@@ -1,27 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.css';
-import Footer from './Components/footer';
-import Header from './Components/header';
-import Registration from './Components/registration';
-import Query from './Components/query';
-import Content from './Components/contentp';
-import IMAGES from './Assets/img';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.css";
+import Footer from "./Components/footer";
+import Header from "./Components/header";
+import Registration from "./Components/registration";
+import Query from "./Components/query";
+import Content from "./Components/contentp";
+import IMAGES from "./Assets/img";
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 function App() {
   return (
-    
-   //<Section/>
-   <div className="Learning">
-      <Header/>
-      {/* <Registration/> */}
-      <Content/>
-      <Footer/>
-    <Query/>
-      
-      
-   </div>
-
-
+    //<Section/>
+    <div className="Learning">
+      <BrowserRouter>
+        <Header />
+        
+          <Routes>
+            <Route path="/" element ={<Content />}/>
+            <Route path="/registration" element ={<Registration />}/>
+            <Route path="/contacts" element ={<Footer />}/>
+        </Routes>
+         <Footer /> 
+        <Query />
+      </BrowserRouter>
+    </div>
   );
 }
 
