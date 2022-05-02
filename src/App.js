@@ -14,6 +14,8 @@ function App() {
    <div className="Learning">
       <Header/>
       {/* <Registration/> */}
+
+      
       <Content/>
       <Footer/>
     <Query/>
