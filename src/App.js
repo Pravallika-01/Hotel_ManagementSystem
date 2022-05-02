@@ -6,6 +6,7 @@ import Header from './Components/header';
 import Registration from './Components/registration';
 import Query from './Components/query';
 import Content from './Components/contentp';
+import Images from './Components/images';
 import IMAGES from './Assets/img';
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
       <Header/>
       {/* <Registration/> */}
 
-      
+
       <Content/>
+      <Images/>
       <Footer/>
     <Query/>
       

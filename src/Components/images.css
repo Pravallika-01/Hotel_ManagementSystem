@@ -1,0 +1,8 @@
+.sliderimg{
+    width: 400px;
+    height: 340px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    margin-left: 450px;
+  }
