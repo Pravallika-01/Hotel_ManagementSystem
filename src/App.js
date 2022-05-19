@@ -18,7 +18,7 @@ function App() {
       <Footer/>
     <Query/>
       
-      
+      <p>HEYY</p>
    </div>
 
 
