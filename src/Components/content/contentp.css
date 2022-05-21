@@ -13,6 +13,7 @@
     text-align: center;
     font-size: 30px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
     color: darkblue;
     margin-top:100px;
 
@@ -20,7 +21,7 @@
 .content{
     text-align: justify;
     justify-content: space-around;
-    margin: 2% 3%;
+    margin:  3%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
     line-height: 1.8;

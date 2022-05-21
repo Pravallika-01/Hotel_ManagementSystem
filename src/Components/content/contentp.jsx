@@ -1,17 +1,20 @@
 import React from 'react'
 import './contentp.css'
-import IMAGES from '../Assets/img.js';
-import Footer from './footer';
+import IMAGES from '../../Assets/img.js';
+import Footer from '../footer';
+import Videocovid from "../covidvideo"
 const Content = () => {
   return (
+    <>
+    <Videocovid />
     <div className="cont">
-        <div className="logo">
-          <h1>THE HOTEL GRAND</h1>
-          #YourSafety&HealthIsOurPriority
-      </div>
-      <br />
-      <br />
-      <div className="content">
+          <div className="logo">
+              <h1>THE HOTEL GRAND</h1>
+              #YourSafety&HealthIsOurPriority
+          </div>
+          <br />
+          <br />
+          <div className="content">
               <p>The Grand New Delhi, nestled in the heart of Delhi NCR, is the city's most distinguished luxury hotel.
                   An ideal destination for the discerning business and leisure traveller, this 5 Star business hotel in Delhi, boasts modern facilities and a resort-like feel with its luscious greens & magnificent waterscape.</p>
               <p>When you visit the capital of India, you will witness the glory of Indian history in its magnificent monuments and beautiful parks.
@@ -22,28 +25,28 @@ const Content = () => {
           </div><br /><div>
               <div className="row">
                   <div className="column">
-                     
-                      <img src = {IMAGES.pic1} alt=" " />
-                      <img src = {IMAGES.pic2} alt=" " />
-                      <img src = {IMAGES.pic5} alt=" " />
-                      <img src = {IMAGES.pic7} alt=" " />
-                     
-                      
-                     
+
+                      <img src={IMAGES.pic1} alt=" " />
+                      <img src={IMAGES.pic2} alt=" " />
+                      <img src={IMAGES.pic5} alt=" " />
+                      <img src={IMAGES.pic7} alt=" " />
+
+
+
                   </div>
                   <>
                       <div className="column">
-                      <img src = {IMAGES.pic3} alt=" " />
-                      <img src = {IMAGES.pic4} alt=" " />
-                      <img src = {IMAGES.pic6} alt=" " />
-                      <img src = {IMAGES.pic8} alt=" " />
+                          <img src={IMAGES.pic3} alt=" " />
+                          <img src={IMAGES.pic4} alt=" " />
+                          <img src={IMAGES.pic6} alt=" " />
+                          <img src={IMAGES.pic8} alt=" " />
                       </div> </>
 
 
               </div>
           </div>
           {/* <Footer/> */}
-          </div>
+      </div></>
   )
 }
 
