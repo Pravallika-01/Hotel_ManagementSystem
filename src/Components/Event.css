@@ -1,0 +1,23 @@
+
+.event{
+    padding-top: 90px;
+    text-align: center;
+}
+.tex{
+    font-size: 0.8em;
+
+  }
+.col{
+    width: 100px;
+}
+.but{
+    padding-left: 110px;
+    color: brown;
+}
+.container{
+    padding-left:40px ;
+}
+p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 20px;
+}
