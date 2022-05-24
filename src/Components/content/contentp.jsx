@@ -14,7 +14,7 @@ const Content = () => {
           </div>
           <br />
 
-          
+        
           <br />
           <div className="content">
               <p>The Grand New Delhi, nestled in the heart of Delhi NCR, is the city's most distinguished luxury hotel.
