@@ -21,6 +21,7 @@ function App() {
       <Images/>
       <Footer/>
     <Query/>
+    
       
       
    </div>
