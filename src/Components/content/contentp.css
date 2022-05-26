@@ -1,21 +1,27 @@
-.cont{
-    background-color:whitesmoke ;
+.cont2{
+    background-color:#E9D5DA ;
+   
 }
-
+.vcss{
+    width:80%;
+    left:-90px;
+    margin-left: 110px;
+    background: rgb(30, 97, 204);
+}
 .logo{
     text-align:center;
     font-size: small;
     font-family: monospace;
     color: cornflowerblue;
-    
+    margin-top: -20px;
 }
 .logo h1{
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
     color: darkblue;
-    margin-top:100px;
+    
 
 }
 .content{
@@ -25,7 +31,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
     line-height: 1.8;
-    color:darkslategrey
+    color:black;
 }
 
 .row{
@@ -42,4 +48,16 @@
     justify-content: space-around;
     margin-left: 300px;
 
+  }
+  .images{
+      margin-top: 20px;
+      margin-bottom:-40px;
+  }
+  .sliderimg{
+    width: 500px;
+    height: 340px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
   }
