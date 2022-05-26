@@ -1,9 +1,9 @@
-
 import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
 import {Footer,Header,Registration,Content} from "./components";
+
 import IMAGES from "./Assets/img";
 import {
   BrowserRouter,
@@ -11,8 +11,6 @@ import {
   Route,
   Link,
 } from "react-router-dom";
-
-
 function App() {
   return (
     //<Section/>
@@ -29,6 +27,6 @@ function App() {
         {/* <Query /> */}
       </BrowserRouter>
     </div>
-  )}
+  );
+}
 export default App;
-
