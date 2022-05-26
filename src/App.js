@@ -6,7 +6,7 @@ import Footer from "./Components/footer";
 import Header from "./Components/header";
 import Registration from "./Components/registration";
 import Query from "./Components/query";
-import Content from "./Components/contentp";
+import Content from "./Components/content/contentp";
 import Event from "./Components/Event";
 import IMAGES from "./Assets/img";
 import {
