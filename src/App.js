@@ -21,6 +21,7 @@ function App() {
         <Routes>
             <Route path="/" element ={<Content />}/>
             <Route path="/registration" element ={<Registration />}/>
+            
             {/* <Route path="/contacts" element ={<Footer />}/> */}
         </Routes>
          <Footer /> 
