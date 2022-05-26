@@ -1,8 +1,12 @@
-.cont{
+.cont2{
     background-color:#E9D5DA ;
    
 }
+.vcss{
+    width:100%;
+    right:-40px;
 
+}
 .logo{
     text-align:center;
     font-size: small;
@@ -12,7 +16,7 @@
 }
 .logo h1{
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
     color: darkblue;
@@ -26,7 +30,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: medium;
     line-height: 1.8;
-    color:darkslategrey
+    color:black;
 }
 
 .row{
@@ -43,4 +47,16 @@
     justify-content: space-around;
     margin-left: 300px;
 
+  }
+  .images{
+      margin-top: 20px;
+      bottom:-40px;
+  }
+  .sliderimg{
+    width: 400px;
+    height: 340px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    margin-left: 450px;
   }

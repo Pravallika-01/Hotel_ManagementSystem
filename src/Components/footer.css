@@ -11,6 +11,7 @@
     height:40%;
     left:-36px;
     bottom:-55px;
+    right: -30px;
     
 }
  #heading{
@@ -24,14 +25,14 @@
     }
 
 .col-sm-4{
-    background:aqua;
+    background: #4D4C7D;
     max-width: 100%;
     
    
     
 }
 .card{
-    background:aqua;
+    background: #4D4C7D;
     border:none;
     height: 350px;
     padding: 70px;
