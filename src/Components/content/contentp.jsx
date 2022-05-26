@@ -22,29 +22,7 @@ const Content = () => {
                   These tourist attractions can be conveniently reached from our 5 Star hotel in New Delhi.</p>
               <p>Our 5-star hotel in Delhi is approximately 9 km from the Indira Gandhi International Airport and within close proximity to the major travel hubs of Delhi. It is also very close to DLF Promenade and many popular shopping destinations such as DLF Emporio, Ambience Mall, and Diplomatic Enclave.</p>
 
-          </div><br /><div>
-              <div className="row">
-                  <div className="column">
-
-                      <img src={IMAGES.pic1} alt=" " />
-                      <img src={IMAGES.pic2} alt=" " />
-                      <img src={IMAGES.pic5} alt=" " />
-                      <img src={IMAGES.pic7} alt=" " />
-
-
-
-                  </div>
-                  <>
-                      <div className="column">
-                          <img src={IMAGES.pic3} alt=" " />
-                          <img src={IMAGES.pic4} alt=" " />
-                          <img src={IMAGES.pic6} alt=" " />
-                          <img src={IMAGES.pic8} alt=" " />
-                      </div> </>
-
-
-              </div>
-          </div>
+          </div><br />
           {/* <Footer/> */}
       </div></>
   )

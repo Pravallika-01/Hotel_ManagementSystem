@@ -51,6 +51,7 @@ nav ul li a{
 	font-size: 18px;
 	text-transform: uppercase;
 	padding:0px 32px;
+	font-weight: bold;
 }
 nav ul li a:hover{
 	color:#c0d96f;
