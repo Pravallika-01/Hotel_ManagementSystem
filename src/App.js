@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
@@ -13,6 +13,7 @@ import {
   BrowserRouter,
   Routes,
   Route,
+  Link,
 } from "react-router-dom";
 function App() {
   return (
@@ -27,10 +28,9 @@ function App() {
             <Route path="/Event" element ={<Event />}/>
         </Routes>
          <Footer /> 
-        <Query />
+        {/* <Query /> */}
       </BrowserRouter>
     </div>
   );
 }
-
 export default App;

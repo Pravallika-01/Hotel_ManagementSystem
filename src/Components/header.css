@@ -16,6 +16,17 @@ nav{
 	z-index: 1;
     padding-bottom: 5px;
 }
+.video{
+	
+	width:100%;
+	left:50%;
+	top:50%;
+	height:100%;
+	object-fit: cover;
+	padding-left: 120px;
+	background-color: rgb(5, 115, 167);
+
+}
 nav .logo{
 	font-size: 30px;
 	font-weight: bold;

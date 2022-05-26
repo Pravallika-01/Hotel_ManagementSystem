@@ -10,7 +10,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #4070f4;
+  background: #111112;
+  
+  
+}
+form{
+  left: 90px;
 }
 .wrapper{
   position:relative;
@@ -22,6 +27,7 @@
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
   margin-top: 300px;
   margin-left:400px;
+  margin-right:400px;
   
 }
 .wrapper h2{
