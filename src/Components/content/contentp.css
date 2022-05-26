@@ -1,18 +1,30 @@
 .cont2{
     background-color:#E9D5DA ;
    
+<<<<<<< Updated upstream
 }
 .vcss{
     width:100%;
     right:-40px;
 
 }
+=======
+}
+.vcss{
+    width:80%;
+    left:-90px;
+}
+>>>>>>> Stashed changes
 .logo{
     text-align:center;
     font-size: small;
     font-family: monospace;
     color: cornflowerblue;
+<<<<<<< Updated upstream
     margin-top: -30px;
+=======
+    margin-top: -20px;
+>>>>>>> Stashed changes
 }
 .logo h1{
     text-align: center;
@@ -50,13 +62,24 @@
   }
   .images{
       margin-top: 20px;
+<<<<<<< Updated upstream
       bottom:-40px;
   }
   .sliderimg{
     width: 400px;
+=======
+      margin-bottom:-40px;
+  }
+  .sliderimg{
+    width: 500px;
+>>>>>>> Stashed changes
     height: 340px;
     object-fit: cover;
     display: flex;
     align-items: center;
+<<<<<<< Updated upstream
     margin-left: 450px;
+=======
+    margin-left: 400px;
+>>>>>>> Stashed changes
   }
