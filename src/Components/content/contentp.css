@@ -3,10 +3,12 @@
    
 }
 .vcss{
-    width:80%;
-    left:-90px;
-    margin-left: 110px;
-    background: rgb(30, 97, 204);
+    /* width:80%; */
+    /* left:-90px; */
+     /* margin-left: 110px;  */
+     background: rgb(37, 181, 221);
+    
+    
 }
 .logo{
     text-align:center;
@@ -51,13 +53,14 @@
   }
   .images{
       margin-top: 20px;
-      margin-bottom:-40px;
+      margin-bottom:-600px;
+      margin-left: 40px;
   }
   .sliderimg{
-    width: 500px;
-    height: 340px;
+    width: 700px;
+    height: 400px;
     object-fit: cover;
     display: flex;
     align-items: center;
-    margin-left: 400px;
+    margin-left: 350px;
   }
