@@ -2,15 +2,16 @@
 .row{  /* height: 50%; */
     overflow: hidden;
     display: block;
-    margin-bottom: 0px;
+    margin-bottom: -30px;
     position:relative; 
     right: 0;
     bottom: 0;
     justify-content: space-around;
     width:100%;
     height:40%;
-    left:-46px;
-    bottom:-55px;
+    left:-50px;
+    bottom:-600px;
+    
 }
  #heading{
     padding-left: 40px;
@@ -23,14 +24,14 @@
     }
 
 .col-sm-4{
-    background:aqua;
+    background: #4D4C7D;
     max-width: 100%;
     
    
     
 }
 .card{
-    background:aqua;
+    background: #4D4C7D;
     border:none;
     height: 350px;
     padding: 70px;
@@ -110,8 +111,8 @@ li:hover{
     padding-bottom: 30px;
 }
 #heys{
-    padding-top: 20px;
-    padding-right:80px;
+    padding-top: 10px;
+    padding-right:10px;
 }
 #txt{
  padding-bottom:0;
@@ -129,7 +130,7 @@ li:hover{
 #copyryt{
     text-align: center;
     padding-top: 100px;
-    padding-right:75px;
+    padding-right:50px;
     font-weight:900;
 }
 .row p{

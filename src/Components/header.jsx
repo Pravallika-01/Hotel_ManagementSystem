@@ -12,8 +12,8 @@ const Header = () => {
 		</div>
 		<ul>
 			<li><Link to="">Rooms</Link></li>
-			<li><Link to="/location">Location</Link></li>
-			<li><Link to="/contact">contact us</Link></li>
+			<li><Link to="/Event">Events</Link></li>
+			<li><Link to="/contacts">contact us</Link></li>
 			<li class="nav-item"><Link class="nav-link" to="/registration">Login/Registration</Link>
 			  </li>
 			  <button type="button" class="btn btn-warning btn-sm">Book Now</button>
