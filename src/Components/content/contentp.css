@@ -59,22 +59,13 @@
       margin-bottom:-600px;
       margin-left: 40px;
   }
-  .sliderimg{
-    width: 500px;
-    height: 400px;
-    object-fit: cover;
-    display: flex;
-    align-items: center;
-    margin-left: 350px;
-
-      margin-bottom:-40px;
-  }
+  
   .sliderimg{
     width: 500px;
     height: 340px;
     object-fit: cover;
     display: flex;
     align-items: center;
-    margin-left: 450px;
+    margin-left: 350px;
 
   }
