@@ -13,6 +13,7 @@ const IMAGES={
     pic12:  require('./drawingroom.jpg'),
     pic13:  require('./boardroom.jpg'),
     pic14:  require('./garden.jpg'),
+    pic15:  require('./exterior.jpg'),
     
 }
 export default IMAGES;

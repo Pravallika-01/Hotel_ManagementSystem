@@ -16,6 +16,7 @@ import {
   Route,
   Link,
 } from "react-router-dom";
+import Contactus from "./Components/contactus";
 function App() {
   return (
     //<Section/>
@@ -26,7 +27,7 @@ function App() {
             <Route path="/" element ={<Content />}/>
             <Route path="/Rooms" element={<Rooms/>}/>
             <Route path="/registration" element ={<Registration />}/>
-            <Route path="/contacts" element ={<Footer />}/>
+            <Route path="/contacts" element ={<Contactus/>}/>
             <Route path="/Event" element ={<Event />}/>
         </Routes>
          <Footer /> 
