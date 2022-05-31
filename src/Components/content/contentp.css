@@ -1,6 +1,7 @@
 .cont2{
     background-color:#E9D5DA ;
    
+
 }
 .vcss{
     /* width:80%; */
@@ -10,12 +11,14 @@
     
     
 }
+
 .logo{
     text-align:center;
     font-size: small;
     font-family: monospace;
     color: cornflowerblue;
     margin-top: -20px;
+
 }
 .logo h1{
     text-align: center;
@@ -57,10 +60,21 @@
       margin-left: 40px;
   }
   .sliderimg{
-    width: 700px;
+    width: 500px;
     height: 400px;
     object-fit: cover;
     display: flex;
     align-items: center;
     margin-left: 350px;
+
+      margin-bottom:-40px;
+  }
+  .sliderimg{
+    width: 500px;
+    height: 340px;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    margin-left: 450px;
+
   }
