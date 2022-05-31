@@ -7,6 +7,7 @@ export default function Event() {
   return (
     <div>
       <>
+      
       <div className="event">
       <h1>Fabulous Events & Weddings at our Banquet Halls</h1>
 
@@ -25,7 +26,8 @@ export default function Event() {
         rooms for conferences and meetings and sprawling outdoor spaces for social events, exhibitions and gala celebrations.
         </p>
       </div>
-      <br /><div>
+     
+      
 
  {/* row 1 */}
  <div className="eventpge">
@@ -116,7 +118,7 @@ export default function Event() {
 
       
       
-    </div>
+    
     </>
     </div>
     
