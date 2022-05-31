@@ -5,10 +5,10 @@ import "bootstrap/dist/css/bootstrap.css";
 import Footer from "./Components/footer";
 import Header from "./Components/header";
 import Registration from "./Components/registration";
-import Rooms from "./Components/rooms";
 import Query from "./Components/query";
 import Content from "./Components/content/contentp";
 import Event from "./Components/Event";
+import Rooms from './Components/rooms';
 import IMAGES from "./Assets/img";
 import {
   BrowserRouter,
@@ -24,10 +24,10 @@ function App() {
         <Header />
           <Routes>
             <Route path="/" element ={<Content />}/>
+            <Route path="/Rooms" element={<Rooms/>}/>
             <Route path="/registration" element ={<Registration />}/>
             <Route path="/contacts" element ={<Footer />}/>
             <Route path="/Event" element ={<Event />}/>
-            <Route path="/rooms" element ={<Rooms />}/>
         </Routes>
          <Footer /> 
         {/* <Query /> */}
