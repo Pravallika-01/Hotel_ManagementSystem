@@ -28,6 +28,7 @@ export default function Event() {
       <br /><div>
 
  {/* row 1 */}
+ <div className="eventpge">
  <div class="container">
   <div class="row">
     <div class="col">
@@ -111,6 +112,8 @@ export default function Event() {
      </div>
   </div>
 </div>
+</div>
+
       
       
     </div>
