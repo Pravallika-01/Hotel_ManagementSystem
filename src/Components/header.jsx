@@ -11,6 +11,7 @@ const Header = () => {
 			<p>Grand Hotel</p>
 		</div>
 		<ul>
+		    <li><Link to="">Home</Link></li>
 			<li><Link to="/Rooms">Rooms</Link></li>
 			<li><Link to="/Event">Events</Link></li>
 			<li><Link to="/contacts">contact us</Link></li>

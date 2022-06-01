@@ -30,7 +30,7 @@ export default function Event() {
       
 
  {/* row 1 */}
- <div className='box'>
+ <div className="eventpge">
  <div class="container">
   <div class="row">
     <div class="col">
